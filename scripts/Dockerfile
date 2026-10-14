@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:latest
+FROM hashicorp/terraform:1.16.6
 RUN apk add jq \ 
     && apk add bash \
     && apk add go \
